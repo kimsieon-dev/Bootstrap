@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face { 
+	font-family: 'S-CoreDream-9Black'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+@font-face { 
+	font-family: 'locus_sangsang'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+h1, h2, h3, h4, .navbar-brand {
+	font-family: 'S-CoreDream-9Black', sans-serif;
+	color: #263238; /* 900 색상 */
+}
+
+body {
+	font-family: 'locus_sangsang', sans-serif; /* 100색상 */
+	background: #F5F5F5; /* 100 색상 */
+}
+
+.navbar {
+	border-bottom: 3px solid #546E7A; /* 600 색상 */
+}
