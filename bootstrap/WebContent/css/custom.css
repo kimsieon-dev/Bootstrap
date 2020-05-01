@@ -21,9 +21,14 @@ h1, h2, h3, h4, .navbar-brand {
 
 body {
 	font-family: 'locus_sangsang', sans-serif; /* 100색상 */
-	background: #F5F5F5; /* 100 색상 */
+	background-color: #F5F5F5; /* 100 색상 */
 }
 
 .navbar {
 	border-bottom: 3px solid #546E7A; /* 600 색상 */
+}
+
+.blink-top {
+	width: 100%;
+	height: 40px;
 }

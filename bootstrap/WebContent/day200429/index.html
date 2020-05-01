@@ -12,7 +12,7 @@
     <title>자기소개 웹사이트</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
 		<a class="navbar-brand" href="index.html">김시언</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -45,20 +45,205 @@
 		</div>
 	</nav>
 	
+	<section class="blink-top" id="home">
+	
+	</section>
+	
 	<section class="container mt-5">
 		<div class="text-center">
 			<img src="../images/dt.jpeg" class="img-fluid mb-3 rounded-circle" />
 			<h2>김시언</h2>
 			<img src="../images/codesandbox.svg" class="img-fluid mr-2 d-inline" /><p class="d-inline mr-3">자바</p>
 			<img src="../images/grid.svg" class="img-fluid mr-2 d-inline" /><p class="d-inline mr-3">웹 프로그래머</p>
-			<img src="../images/slack.svg" class="img-fluid mr-2 d-inline" /><p class="d-inline">DB 설계</p>
+			<img src="../images/slack.svg" class="img-fluid mr-2 d-inline" /><p class="d-inline" id="career">DB 설계</p>
+		</div>
+	</section>
+	
+	<section class="bg-white text-dark mt-5 mb-3 pt-5 pb-4">
+		<div class="text-center">
+			<div class="container text-left mb-5" style="max-width: 480px;">
+				<h2>수상 경력</h2>
+				<ul>
+					<li>2018 올해의 인재상</li>
+					<li>2018 화이트 해킹 경진대회 최우수상</li>
+					<li>2017 수학능력시험 우수상</li>
+					<li>2016 ADOBE 산업 디자인 경진대회 금상</li>
+				</ul>
+			</div>
+		
+			<div class="container text-left mb-5" style="max-width: 480px;">
+				<h2>활동 경력</h2>
+				<ul>
+					<li>머티리얼 디자인 교재 집필진</li>
+					<li>서당 천자문 교재 집필진</li>
+					<li>최진사댁 연구진</li>
+					<li><id="portfolio">흥부네 박씨 개발자</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 
+	<section class="mt-5 mb-3 pt-5 pb-4">
+		<div class="container">
+			<h2 class="text-center mb-5">포트폴리오</h2>
+			<div class="card-deck">
+				<div class="card">
+					<img src="../images/home.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">포트폴리오</h5>
+						<p class="card-text">포트폴리오에 대한 설명입니다.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="../images/home.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">포트폴리오</h5>
+						<p class="card-text">포트폴리오에 대한 설명입니다.</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="../images/home.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">포트폴리오</h5>
+						<p class="card-text">포트폴리오에 대한 설명입니다.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card-deck mt-4">
+				<div class="card">
+					<img src="../images/home.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">포트폴리오</h5>
+						<p class="card-text">포트폴리오에 대한 설명입니다.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="../images/home.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">포트폴리오</h5>
+						<p class="card-text">포트폴리오에 대한 설명입니다.</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="../images/home.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">포트폴리오</h5>
+						<p class="card-text">포트폴리오에 대한 설명입니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-white mt-5 mb-3 pt-5" id="contact">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-6">
+				<h2 class="mt-3">연락처</h2>
+				<div class="d-flex flex-row">
+					<div class="p-3 align-self-start">
+						<img src="../images/check.svg" />			
+					</div>
+					<div class="p-3 align-self-end" style="text-align:justify">
+						JSP 기반 웹 사이트 개발 문의
+					</div>
+				</div>
+				
+				<div class="d-flex flex-row">
+					<div class="p-3 align-self-start">
+						<img src="../images/check.svg" />			
+					</div>
+					<div class="p-3 align-self-end" style="text-align:justify">
+						응용소프트웨어 개발 문의
+					</div>
+				</div>
+				
+				<div class="d-flex flex-row">
+					<div class="p-3 align-self-start">
+						<img src="../images/check.svg" />				
+					</div>
+					<div class="p-3 align-self-end" style="text-align:justify">
+						DBMS 개발 문의
+					</div>
+				</div>
+				
+					<div class="d-flex flex-row">
+					<div class="p-3 align-self-start">
+						<img src="../images/check.svg" />				
+					</div>
+					<div class="p-3 align-self-end" style="text-align:justify">
+						IOT 기반 애플리케이션 구현
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h2 class="mt-3">간편문의</h2>
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="userName" placeholder="이름"> 
+						</div>
+						
+						<div class="form-group">
+							<textarea placeholder="문의 내용" class="w-100" style="height: 100px; resize= none;"></textarea>
+						</div>
+						
+						<div class="form-group form-check">
+							<input type="checkbox" class="form-check-input" id="userAgree"> 
+							<label class="form-check-label" for="userAgree">개인정보 활용에 동의합니다.</label>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="bg-dark text-white text-center py-5">
+		<div class="container footer-above">
+			<div class="row">
+				<div class="col-lg">
+					<h2 class="text-white">위치</h2>
+					<p>회사 위치</p>
+				</div>
+				<div class="col-lg">
+					<h2 class="text-white">소셜 미디어</h2>
+					<button onclick="loaction.href = 'https://twitter.com'">인스타그램</button>
+					<button>페이스북</button>
+					<button>트위터</button>
+				</div>
+				<div class="col-lg">
+					<h2 class="text-white">개발자 한마디</h2>
+					<p>연락주세요.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container footer-below mt-4">
+			<p>copyright 2020년. Co. all rights reserved.</p>
+		</div>
+	</footer>
+	
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+ 
+ 	<script>
+ 		$(function(){
+ 			$(".navbar-nav > li > a").click(function(){
+ 				$(".navbar-nav > li").removeClass("active");
+ 				$(this).parent("li").addClass("active");
+ 				$(".navbar-nav > li > a").find("span").appendTo($(this));
+ 				let page = $(this).attr("href");
+ 				let pos = $(page).offset().top;
+ 				console.log(pos);
+ 				$("html, body").animate({})
+ 			});
+ 		});
+ 	</script>
   </body>
 </html>
